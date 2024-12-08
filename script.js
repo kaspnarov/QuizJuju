@@ -1,8 +1,8 @@
-let shownIndices = []; // Array para salvar os Ìndices das fotos mostradas
+Ôªølet shownIndices = []; // Array para salvar os √≠ndices das fotos mostradas
 let score = 0;
 let selectedLabel = '';
 let currentPhotoIndex = -1;
-let userResponses = []; // Array para salvar as respostas do usu·rio
+let userResponses = []; // Array para salvar as respostas do usu√°rio
 let totalQuestions = 1;
 
 const difficultyOptions = document.querySelectorAll('.difficulty-option');
@@ -12,21 +12,21 @@ difficultyOptions.forEach(option => {
 document.getElementById('start-quiz-button').addEventListener('click', startQuiz);
 document.getElementById('next-button').addEventListener('click', nextPhoto);
 
-// Adiciona o efeito de escala e desaturaÁ„o para as opÁıes que n„o s„o escolhidas
+// Adiciona o efeito de escala e desatura√ß√£o para as op√ß√µes que n√£o s√£o escolhidas
 function selectDifficulty(event) {
   difficultyOptions.forEach(option => {
     option.classList.remove('difficulty-option-selected');
-    option.style.transform = 'scale(0.95)'; // Escala menor para as n„o escolhidas
-    option.style.filter = 'grayscale(50%)'; // DesaturaÁ„o para as n„o escolhidas
+    option.style.transform = 'scale(0.95)'; // Escala menor para as n√£o escolhidas
+    option.style.filter = 'grayscale(50%)'; // Desatura√ß√£o para as n√£o escolhidas
   });
   event.currentTarget.classList.add('difficulty-option-selected');
   event.currentTarget.style.transform = 'scale(1)'; // Tamanho normal para a escolhida
-  event.currentTarget.style.filter = 'none'; // Sem desaturaÁ„o para a escolhida
+  event.currentTarget.style.filter = 'none'; // Sem desatura√ß√£o para a escolhida
   totalQuestions = parseInt(event.currentTarget.getAttribute('data-questions'));
-  document.getElementById('start-quiz-button').disabled = false; // Habilita o bot„o apÛs selecionar a dificuldade
+  document.getElementById('start-quiz-button').disabled = false; // Habilita o bot√£o ap√≥s selecionar a dificuldade
 }
 
-// Definir a opÁ„o padr„o como "Puxado"
+// Definir a op√ß√£o padr√£o como "Puxado"
 window.onload = function() {
   const defaultOption = document.querySelector('.difficulty-option:nth-child(4)');
   defaultOption.click();
@@ -52,17 +52,17 @@ function nextPhoto() {
   }
 
   if (shownIndices.length < totalQuestions) {
-    // Seleciona um novo Ìndice aleatÛrio que ainda n„o tenha sido mostrado
+    // Seleciona um novo √≠ndice aleat√≥rio que ainda n√£o tenha sido mostrado
     let randomIndex;
     do {
       randomIndex = Math.floor(Math.random() * photos.length);
     } while (shownIndices.includes(randomIndex));
 
-    // Adiciona o novo Ìndice ao array de Ìndices mostrados
+    // Adiciona o novo √≠ndice ao array de √≠ndices mostrados
     shownIndices.push(randomIndex);
     currentPhotoIndex = randomIndex;
 
-    // Define a prÛxima foto
+    // Define a pr√≥xima foto
     const nextPhoto = photos[randomIndex];
     document.getElementById('photo').src = nextPhoto.src;
     document.getElementById('photo-options').innerHTML = '';
@@ -92,7 +92,7 @@ function showResults() {
   document.getElementById('quiz-container').style.display = 'none';
   document.getElementById('result-container').style.display = 'block';
   const resultsContainer = document.getElementById('results');
-  resultsContainer.innerHTML = `VocÍ acertou ${score} de ${totalQuestions} fotos.<br><br>`;
+  resultsContainer.innerHTML = `Voc√™ acertou ${score} de ${totalQuestions} fotos.<br><br>`;
 
   const table = document.createElement('table');
   table.innerHTML = `
@@ -111,7 +111,7 @@ function showResults() {
       <td>${photoIndex + 1}</td>
       <td style="text-align: left; padding-left: 10px;">${correctLabel}</td>
       <td style="text-align: left; padding-left: 10px;">${userLabel}</td>
-      <td>${correct ? '?' : '&#10060;'}</td>
+      <td>${correct ? '‚úÖ' : '&#10060;'}</td>
     `;
     table.appendChild(row);
   });
@@ -119,10 +119,10 @@ function showResults() {
   resultsContainer.appendChild(table);
 }
 
-let currentDropdownIndex = -1; // Õndice atual na lista de dropdown
-let optionSelected = false; // Vari·vel para verificar se uma opÁ„o foi selecionada
+let currentDropdownIndex = -1; // √çndice atual na lista de dropdown
+let optionSelected = false; // Vari√°vel para verificar se uma op√ß√£o foi selecionada
 
-// FunÁ„o para inicializar as opÁıes com caixa de texto autocomplet·vel
+// Fun√ß√£o para inicializar as op√ß√µes com caixa de texto autocomplet√°vel
 function initializeOptions(correctLabel) {
   const container = document.getElementById('photo-options');
   const input = document.createElement('input');
@@ -139,16 +139,16 @@ function initializeOptions(correctLabel) {
   input.addEventListener('input', function() {
     const query = this.value.toLowerCase();
 
-    // Obter rÛtulos ˙nicos e em ordem alfabÈtica
+    // Obter r√≥tulos √∫nicos e em ordem alfab√©tica
     const uniqueLabels = [...new Set(photos.map(photo => photo.correctLabel))].sort((a, b) => a.localeCompare(b));
 
     const filteredOptions = uniqueLabels.filter(label => label.toLowerCase().includes(query));
 
     dropdown.innerHTML = '';
-    currentDropdownIndex = -1; // Reiniciar Ìndice quando o usu·rio comeÁa a digitar
-    optionSelected = false; // Reiniciar flag quando o usu·rio comeÁa a digitar
+    currentDropdownIndex = -1; // Reiniciar √≠ndice quando o usu√°rio come√ßa a digitar
+    optionSelected = false; // Reiniciar flag quando o usu√°rio come√ßa a digitar
     if (filteredOptions.length > 0) {
-      dropdown.style.display = 'block'; // Mostra a dropdown se houver opÁıes
+      dropdown.style.display = 'block'; // Mostra a dropdown se houver op√ß√µes
       filteredOptions.forEach(option => {
         const optionElement = document.createElement('div');
         optionElement.textContent = option;
@@ -157,14 +157,14 @@ function initializeOptions(correctLabel) {
           input.value = option;
           selectedLabel = option;
           dropdown.innerHTML = '';
-          dropdown.style.display = 'none'; // Esconde a dropdown ao selecionar uma opÁ„o
+          dropdown.style.display = 'none'; // Esconde a dropdown ao selecionar uma op√ß√£o
           toggleNextButton(true);
           optionSelected = true; // Marca como selecionada
         });
         dropdown.appendChild(optionElement);
       });
     } else {
-      dropdown.style.display = 'none'; // Esconde a dropdown se n„o houver opÁıes
+      dropdown.style.display = 'none'; // Esconde a dropdown se n√£o houver op√ß√µes
     }
   });
 
@@ -173,28 +173,28 @@ function initializeOptions(correctLabel) {
     if (dropdownItems.length > 0) {
       if (event.key === 'ArrowDown' || event.key === 'Tab') {
         // Navegar para baixo
-        event.preventDefault(); // Impede a aÁ„o padr„o do Tab
+        event.preventDefault(); // Impede a a√ß√£o padr√£o do Tab
         currentDropdownIndex = (currentDropdownIndex + 1) % dropdownItems.length;
         highlightOption(dropdownItems);
         dropdownItems[currentDropdownIndex].scrollIntoView({ block: 'nearest' });
       } else if (event.key === 'ArrowUp') {
         // Navegar para cima
-        event.preventDefault(); // Impede a aÁ„o padr„o
+        event.preventDefault(); // Impede a a√ß√£o padr√£o
         currentDropdownIndex = (currentDropdownIndex - 1 + dropdownItems.length) % dropdownItems.length;
         highlightOption(dropdownItems);
         dropdownItems[currentDropdownIndex].scrollIntoView({ block: 'nearest' });
       } else if (event.key === 'Enter') {
-        // Selecionar a opÁ„o destacada se n„o houver uma opÁ„o selecionada, ou passar para a prÛxima foto se houver uma opÁ„o selecionada
-        event.preventDefault(); // Impede que o formul·rio seja enviado
+        // Selecionar a op√ß√£o destacada se n√£o houver uma op√ß√£o selecionada, ou passar para a pr√≥xima foto se houver uma op√ß√£o selecionada
+        event.preventDefault(); // Impede que o formul√°rio seja enviado
         if (!optionSelected && currentDropdownIndex >= 0) {
           input.value = dropdownItems[currentDropdownIndex].textContent;
           selectedLabel = input.value;
           dropdown.innerHTML = '';
-          dropdown.style.display = 'none'; // Esconde a dropdown ao selecionar uma opÁ„o
+          dropdown.style.display = 'none'; // Esconde a dropdown ao selecionar uma op√ß√£o
           toggleNextButton(true);
           optionSelected = true; // Marca como selecionada
         } else if (optionSelected) {
-          nextPhoto(); // Passar para a prÛxima foto
+          nextPhoto(); // Passar para a pr√≥xima foto
         }
       }
     }
@@ -218,7 +218,7 @@ function highlightOption(dropdownItems) {
   });
 }
 
-// Estilo CSS para a opÁ„o destacada
+// Estilo CSS para a op√ß√£o destacada
 const style = document.createElement('style');
 style.innerHTML = `
   .dropdown-item.highlighted {

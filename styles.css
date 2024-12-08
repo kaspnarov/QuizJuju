@@ -1,4 +1,4 @@
-@charset "ISO-8859-1";
+Ôªø@charset "ISO-8859-1";
 
 body {
   font-family: Arial, sans-serif;
@@ -111,9 +111,9 @@ h1 {
 
 #photo {
   height: 350px; /* Defina uma altura fixa para a imagem */
-  width: auto; /* Ajusta a largura automaticamente para manter a proporÁ„o */
-  object-fit: fill; /* Ajusta a imagem para caber dentro do modal sem distorÁ„o */
-  margin-top: 50px; /* Aproximar a imagem do tÌtulo */
+  width: auto; /* Ajusta a largura automaticamente para manter a propor√ß√£o */
+  object-fit: fill; /* Ajusta a imagem para caber dentro do modal sem distor√ß√£o */
+  margin-top: 50px; /* Aproximar a imagem do t√≠tulo */
 }
 
 #photo-options-container {
@@ -157,9 +157,9 @@ h1 {
   max-height: 200px;
   overflow-y: auto;
   width: 75%; /* Largura ajustada para igualar a da caixa de texto */
-  margin-left: 60px; /* EspaÁamento entre a caixa de texto e o bot„o */
+  margin-left: 60px; /* Espa√ßamento entre a caixa de texto e o bot√£o */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  top: calc(100%); /* Ajusta a posiÁ„o da lista dropdown logo abaixo da caixa de texto */
+  top: calc(100%); /* Ajusta a posi√ß√£o da lista dropdown logo abaixo da caixa de texto */
   border-radius: 0 0 10px 10px; /* Bordas arredondadas na parte inferior */
   display: none; /* Inicialmente escondido */
 }
@@ -187,7 +187,7 @@ h1 {
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s, transform 0.3s;
-  margin-left: 20px; /* EspaÁamento entre a caixa de texto e o bot„o */
+  margin-left: 20px; /* Espa√ßamento entre a caixa de texto e o bot√£o */
   position: relative;
   bottom: 0;
 }
@@ -214,7 +214,7 @@ h1 {
 
 #results {
   width: 90%;
-  max-height: 400px; /* Altura m·xima da tabela */
+  max-height: 400px; /* Altura m√°xima da tabela */
   overflow-y: auto; /* Adiciona barra de rolagem vertical */
   text-align: center;
   margin: 20px 0;
@@ -230,7 +230,7 @@ h1 {
 
 #results th, #results td {
   border: 1px solid #ccc;
-  padding: 5px; /* EspaÁo vertical menor */
+  padding: 5px; /* Espa√ßo vertical menor */
   text-align: center;
 }
 
