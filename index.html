@@ -3,23 +3,35 @@
 <head>
   <meta charset="ISO-8859-1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz de Patologia Oral</title>
+  <title>Quiz de Radiologia</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <h1>Quiz de Patologia Oral</h1>
-    <div id="quiz-container">
-      <span id="counter">1/35</span>
+    <h1>Quiz de Radiologia</h1>
+    <div id="start-container">
+      <p>Selecione o nível de dificuldade:</p>
+      <div class="difficulty-option" data-questions="25">Easy demais</div>
+      <div class="difficulty-option" data-questions="50">Tá fácil</div>
+      <div class="difficulty-option" data-questions="100">Puxado</div>
+      <div class="difficulty-option" data-questions="150">SOS</div>
+      <div class="difficulty-option" data-questions="218">ENEM</div>
+      <button id="start-quiz-button" disabled>Começar Quiz</button>
+    </div>
+    <div id="quiz-container" style="display:none;">
+      <span id="counter">1/218</span>
       <img id="photo" src="" alt="Foto do Quiz">
-      <div id="photo-options"></div>
-      <button id="next-button" disabled><span>&#10003;</span></button>
+      <div id="photo-options-container">
+        <div id="photo-options"></div>
+        <button id="next-button" disabled><span>&#10003;</span></button>
+      </div>
     </div>
     <div id="result-container" style="display:none;">
       <h2>Resultados</h2>
       <p id="results"></p>
     </div>
   </div>
+  <script src="Prova2/fotos.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

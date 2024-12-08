@@ -9,41 +9,171 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 .container {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  position: relative;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-#photo-options {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin: 20px 0;
-}
-.radio-label {
+  width: 80%;
+  max-width: 800px;
+  height: 600px; /* Altura fixa para o modal */
   display: flex;
+  flex-direction: column;
+  position: relative; /* Adicionado para conter elementos com position absolute */
+}
+
+h1 {
+  margin: 10px 0; /* Reduzir a margem inferior para aproximar a imagem */
+}
+
+#counter {
+  position: absolute;
+  top: -45px;
+  right: 20px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#start-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  background-color: #e0e0e0;
-  border-radius: 5px;
+  height: 100%;
+}
+
+.difficulty-option {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s, opacity 0.2s;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
 }
-.radio-label input[type="radio"] {
-  display: none;
+
+.difficulty-option:nth-child(2) { background-color: #389742; } /* Verde */
+.difficulty-option:nth-child(3) { background-color: #b7c82c; } /* Amarelo esverdeado */
+.difficulty-option:nth-child(4) { background-color: #efcc2b; } /* Amarelo */
+.difficulty-option:nth-child(5) { background-color: #d9902f; } /* Laranja */
+.difficulty-option:nth-child(6) { background-color: #c23234; } /* Vermelho */
+
+.difficulty-option-selected {
+  width: 22%;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-.radio-label-selected {
+
+.difficulty-option:not(.difficulty-option-selected) {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+.difficulty-option:hover {
+  transform: scale(1.05);
+}
+
+#start-quiz-button {
   background-color: #4CAF50;
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
 }
+
+#start-quiz-button:hover {
+  background-color: #45a049;
+}
+
+#start-quiz-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  position: relative; /* Garantir que os elementos se alinhem dentro do modal */
+}
+
+#photo {
+  height: 350px; /* Defina uma altura fixa para a imagem */
+  width: auto; /* Ajusta a largura automaticamente para manter a proporção */
+  object-fit: fill; /* Ajusta a imagem para caber dentro do modal sem distorção */
+  margin-top: 50px; /* Aproximar a imagem do título */
+}
+
+#photo-options-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  align-items: center;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 20px; /* Garante que fique na parte inferior do modal */
+  left: 0;
+  right: 0;
+}
+
+#photo-options {
+  width: 65%; /* Ajuste do tamanho da caixa de texto */
+  position: relative;
+}
+
+#auto-complete-input {
+  width: 70%;
+  padding: 20px; /* Ajuste do padding */
+  font-size: 16px; /* Ajuste do tamanho da fonte */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#auto-complete-input:focus {
+  outline: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-top: none;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 75%; /* Largura ajustada para igualar a da caixa de texto */
+  margin-left: 60px; /* Espaçamento entre a caixa de texto e o botão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  top: calc(100%); /* Ajusta a posição da lista dropdown logo abaixo da caixa de texto */
+  border-radius: 0 0 10px 10px; /* Bordas arredondadas na parte inferior */
+  display: none; /* Inicialmente escondido */
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
 #next-button {
   background-color: #d0d0d0;
   color: white;
@@ -56,50 +186,65 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-left: auto;
   transition: background-color 0.3s, transform 0.3s;
+  margin-left: 20px; /* Espaçamento entre a caixa de texto e o botão */
+  position: relative;
+  bottom: 0;
 }
+
 #next-button:enabled {
   background-color: #4CAF50;
   cursor: pointer;
 }
+
 #next-button:enabled:hover {
   background-color: #45a049;
   transform: scale(1.1);
 }
-#counter {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 18px;
-  background-color: #f0f0f0;
-  padding: 5px 10px;
-  border-radius: 5px;
+
+#result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden; /* Impede que o container role */
+  border-radius: 10px; /* Bordas levemente arredondadas */
 }
-table {
+
+#results {
+  width: 90%;
+  max-height: 400px; /* Altura máxima da tabela */
+  overflow-y: auto; /* Adiciona barra de rolagem vertical */
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Bordas levemente arredondadas */
+}
+
+#results table {
   width: 100%;
   border-collapse: collapse;
-  max-height: 300px; /* Ajuste a altura conforme necessário */
-  overflow-y: auto; /* Adiciona barra de rolagem na lateral */
-  display: block; /* Garante que a tabela seja um bloco para a barra de rolagem */
 }
-table, th, td {
-  border: 1px solid #ddd;
-}
-th, td {
-  padding: 10px;
+
+#results th, #results td {
+  border: 1px solid #ccc;
+  padding: 5px; /* Espaço vertical menor */
   text-align: center;
 }
-th:nth-child(2), th:nth-child(3) {
-  padding-left: 15px;
+
+#results th {
+  background-color: #f2f2f2;
 }
-td:nth-child(2), td:nth-child(3) {
-  padding-left: 15px;
-}
-tr:nth-child(even) {
+
+#results tr:nth-child(even) {
   background-color: #f9f9f9;
 }
-tr:hover {
+
+#results tr:hover {
   background-color: #f1f1f1;
 }
+
+
+

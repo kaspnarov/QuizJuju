@@ -1,0 +1,874 @@
+[
+    {
+        "src": "Fotos/0.jpg",
+        "correctLabel": "Macrodontia"
+    },
+    {
+        "src": "Fotos/1.jpg",
+        "correctLabel": "Microdontia"
+    },
+    {
+        "src": "Fotos/2.jpg",
+        "correctLabel": "Geminação"
+    },
+    {
+        "src": "Fotos/3.jpg",
+        "correctLabel": "Fusão"
+    },
+    {
+        "src": "Fotos/4.jpg",
+        "correctLabel": "Concrescência"
+    },
+    {
+        "src": "Fotos/5.jpg",
+        "correctLabel": "Concrescência"
+    },
+    {
+        "src": "Fotos/6.jpg",
+        "correctLabel": "Cúspide em garra"
+    },
+    {
+        "src": "Fotos/7.jpg",
+        "correctLabel": "Incisivo de Hutchinson"
+    },
+    {
+        "src": "Fotos/8.jpg",
+        "correctLabel": "Molares de Hutchinson"
+    },
+    {
+        "src": "Fotos/9.jpg",
+        "correctLabel": "Dilaceração"
+    },
+    {
+        "src": "Fotos/10.jpg",
+        "correctLabel": "Taurodontia"
+    },
+    {
+        "src": "Fotos/11.jpg",
+        "correctLabel": " Pérola de esmalte"
+    },
+    {
+        "src": "Fotos/12.jpg",
+        "correctLabel": "Dentes supranumerários"
+    },
+    {
+        "src": "Fotos/13.jpg",
+        "correctLabel": " Síndrome de Gorlin-Goltz"
+    },
+    {
+        "src": "Fotos/14.jpg",
+        "correctLabel": "Giroversão"
+    },
+    {
+        "src": "Fotos/15.jpg",
+        "correctLabel": "Ectopia"
+    },
+    {
+        "src": "Fotos/16.jpg",
+        "correctLabel": "Transmigração"
+    },
+    {
+        "src": "Fotos/17.jpg",
+        "correctLabel": "Dentes não irrompidos"
+    },
+    {
+        "src": "Fotos/18.jpg",
+        "correctLabel": "Amelogênese imperfeita"
+    },
+    {
+        "src": "Fotos/19.jpg",
+        "correctLabel": "Hipoplasia de esmalte"
+    },
+    {
+        "src": "Fotos/20.jpg",
+        "correctLabel": "Dentinogênese imperfeita"
+    },
+    {
+        "src": "Fotos/21.jpg",
+        "correctLabel": "Displasia dentinária"
+    },
+    {
+        "src": "Fotos/22.jpg",
+        "correctLabel": "Odontodisplasia regional"
+    },
+    {
+        "src": "Fotos/23.jpg",
+        "correctLabel": "Fratura coronária"
+    },
+    {
+        "src": "Fotos/24.jpg",
+        "correctLabel": "Erosão"
+    },
+    {
+        "src": "Fotos/25.jpg",
+        "correctLabel": "Abrasão"
+    },
+    {
+        "src": "Fotos/26.jpg",
+        "correctLabel": "Atrição"
+    },
+    {
+        "src": "Fotos/27.jpg",
+        "correctLabel": "Cárie proximal"
+    },
+    {
+        "src": "Fotos/28.jpg",
+        "correctLabel": "Cárie oclusal"
+    },
+    {
+        "src": "Fotos/29.jpg",
+        "correctLabel": "Cárie vestibular/palatina"
+    },
+    {
+        "src": "Fotos/30.jpg",
+        "correctLabel": "Cárie recorrente"
+    },
+    {
+        "src": "Fotos/31.jpg",
+        "correctLabel": "Mineralização pulpar"
+    },
+    {
+        "src": "Fotos/32.jpg",
+        "correctLabel": "Nódulos pulpares"
+    },
+    {
+        "src": "Fotos/33.jpg",
+        "correctLabel": "Cárie radicular"
+    },
+    {
+        "src": "Fotos/34.jpg",
+        "correctLabel": "Reabsorção radicular externa"
+    },
+    {
+        "src": "Fotos/35.jpg",
+        "correctLabel": "Reabsorção radicular interna"
+    },
+    {
+        "src": "Fotos/36.jpg",
+        "correctLabel": "Fratura radicular"
+    },
+    {
+        "src": "Fotos/37.jpg",
+        "correctLabel": "Trepanação radicular"
+    },
+    {
+        "src": "Fotos/38.jpg",
+        "correctLabel": "Hipercementose"
+    },
+    {
+        "src": "Fotos/39.jpg",
+        "correctLabel": "Cálculo dentário"
+    },
+    {
+        "src": "Fotos/40.jpg",
+        "correctLabel": "Pericementite"
+    },
+    {
+        "src": "Fotos/41.jpg",
+        "correctLabel": "Abcesso periapical"
+    },
+    {
+        "src": "Fotos/42.jpg",
+        "correctLabel": "Granuloma"
+    },
+    {
+        "src": "Fotos/43.jpg",
+        "correctLabel": "Cisto periapical"
+    },
+    {
+        "src": "Fotos/44.jpg",
+        "correctLabel": "Perda óssea horizontal"
+    },
+    {
+        "src": "Fotos/45.jpg",
+        "correctLabel": " Perda óssea vertical ou angular"
+    },
+    {
+        "src": "Fotos/46.jpg",
+        "correctLabel": "Lesões de furca"
+    },
+    {
+        "src": "Fotos/47.jpg",
+        "correctLabel": "Lesões endo-perio"
+    },
+    {
+        "src": "Fotos/48.jpg",
+        "correctLabel": "Osteite condensante"
+    },
+    {
+        "src": "Fotos/49.jpg",
+        "correctLabel": "Osteomielite"
+    },
+    {
+        "src": "Fotos/50.jpg",
+        "correctLabel": "Osteomielite"
+    },
+    {
+        "src": "Fotos/51.jpg",
+        "correctLabel": "Osteomielite"
+    },
+    {
+        "src": "Fotos/52.jpg",
+        "correctLabel": "Osteomielite"
+    },
+    {
+        "src": "Fotos/53.jpg",
+        "correctLabel": "Osteorradionecrose"
+    },
+    {
+        "src": "Fotos/54.jpg",
+        "correctLabel": "Osteonecrose por medicamentos"
+    },
+    {
+        "src": "Fotos/55.jpg",
+        "correctLabel": "Periocoronarite"
+    },
+    {
+        "src": "Fotos/56.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/57.jpg",
+        "correctLabel": "Cisto residual"
+    },
+    {
+        "src": "Fotos/58.jpg",
+        "correctLabel": "Cisto paradentário"
+    },
+    {
+        "src": "Fotos/59.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/60.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/61.jpg",
+        "correctLabel": "Queratocisto odontogênico"
+    },
+    {
+        "src": "Fotos/62.jpg",
+        "correctLabel": "Queratocisto odontogênico"
+    },
+    {
+        "src": "Fotos/63.jpg",
+        "correctLabel": "Queratocisto odontogênico"
+    },
+    {
+        "src": "Fotos/64.jpg",
+        "correctLabel": "Cisto nasopalatino"
+    },
+    {
+        "src": "Fotos/65.jpg",
+        "correctLabel": "Ameloblastoma multicístico"
+    },
+    {
+        "src": "Fotos/66.jpg",
+        "correctLabel": "Ameloblastoma unicístico"
+    },
+    {
+        "src": "Fotos/67.jpg",
+        "correctLabel": "Ameloblastoma unicístico"
+    },
+    {
+        "src": "Fotos/68.jpg",
+        "correctLabel": "Mixoma odontogênico"
+    },
+    {
+        "src": "Fotos/69.jpg",
+        "correctLabel": "Odontoma composto"
+    },
+    {
+        "src": "Fotos/70.jpg",
+        "correctLabel": "Odontoma complexo"
+    },
+    {
+        "src": "Fotos/71.jpg",
+        "correctLabel": "Tumor odontogênico adenomatóide"
+    },
+    {
+        "src": "Fotos/72.jpg",
+        "correctLabel": "Tumor odontogênico adenomatóide"
+    },
+    {
+        "src": "Fotos/73.jpg",
+        "correctLabel": "Osteoma"
+    },
+    {
+        "src": "Fotos/74.jpg",
+        "correctLabel": "Osteossarcoma"
+    },
+    {
+        "src": "Fotos/75.jpg",
+        "correctLabel": "Metástase no maxilar"
+    },
+    {
+        "src": "Fotos/76.jpg",
+        "correctLabel": "Macrodontia"
+    },
+    {
+        "src": "Fotos/77.jpg",
+        "correctLabel": "Microdontia"
+    },
+    {
+        "src": "Fotos/78.jpg",
+        "correctLabel": "Anodontia"
+    },
+    {
+        "src": "Fotos/79.jpg",
+        "correctLabel": "Dentes supranumerários"
+    },
+    {
+        "src": "Fotos/80.jpg",
+        "correctLabel": "Taurodontia"
+    },
+    {
+        "src": "Fotos/81.jpg",
+        "correctLabel": "Pérola de esmalte"
+    },
+    {
+        "src": "Fotos/82.jpg",
+        "correctLabel": "Dilaceração"
+    },
+    {
+        "src": "Fotos/83.jpg",
+        "correctLabel": "Raízes supranumerárias"
+    },
+    {
+        "src": "Fotos/84.jpg",
+        "correctLabel": "Amelogênese imperfeita"
+    },
+    {
+        "src": "Fotos/85.jpg",
+        "correctLabel": "Anquilose"
+    },
+    {
+        "src": "Fotos/86.jpg",
+        "correctLabel": "Giroversão"
+    },
+    {
+        "src": "Fotos/87.jpg",
+        "correctLabel": "Fratura radicular"
+    },
+    {
+        "src": "Fotos/88.jpg",
+        "correctLabel": "Cárie"
+    },
+    {
+        "src": "Fotos/89.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/90.jpg",
+        "correctLabel": "Cisto nasopalatino"
+    },
+    {
+        "src": "Fotos/91.jpg",
+        "correctLabel": "Cisto residual"
+    },
+    {
+        "src": "Fotos/92.jpg",
+        "correctLabel": "Cementoblastoma"
+    },
+    {
+        "src": "Fotos/93.jpg",
+        "correctLabel": "Odontoma composto"
+    },
+    {
+        "src": "Fotos/94.jpg",
+        "correctLabel": "Tumor odontogênico queratocístico"
+    },
+    {
+        "src": "Fotos/95.jpg",
+        "correctLabel": "Displasia cemento-óssea periapical"
+    },
+    {
+        "src": "Fotos/96.jpg",
+        "correctLabel": "Lesão periapical"
+    },
+    {
+        "src": "Fotos/97.jpg",
+        "correctLabel": "Geminação"
+    },
+    {
+        "src": "Fotos/99.jpg",
+        "correctLabel": "Fusão"
+    },
+    {
+        "src": "Fotos/100.jpg",
+        "correctLabel": "Concrescência"
+    },
+    {
+        "src": "Fotos/101.jpg",
+        "correctLabel": "Taurodontia"
+    },
+    {
+        "src": "Fotos/102.jpg",
+        "correctLabel": "Pérola de esmalte"
+    },
+    {
+        "src": "Fotos/103.jpg",
+        "correctLabel": "Dente invaginado"
+    },
+    {
+        "src": "Fotos/104.jpg",
+        "correctLabel": "Dente evaginado"
+    },
+    {
+        "src": "Fotos/105.jpg",
+        "correctLabel": "Hipoplasia de esmalte"
+    },
+    {
+        "src": "Fotos/106.jpg",
+        "correctLabel": "Amelogênese imperfeita"
+    },
+    {
+        "src": "Fotos/107.jpg",
+        "correctLabel": "Dentinogênese imperfeita"
+    },
+    {
+        "src": "Fotos/108.jpg",
+        "correctLabel": "Odontodisplasia regional esmalte e dentina malformados"
+    },
+    {
+        "src": "Fotos/109.jpg",
+        "correctLabel": "Displasia dentinária"
+    },
+    {
+        "src": "Fotos/110.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/111.jpg",
+        "correctLabel": "Cisto nasopalatino"
+    },
+    {
+        "src": "Fotos/112.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/115.jpg",
+        "correctLabel": "Dilaceração"
+    },
+    {
+        "src": "Fotos/116.jpg",
+        "correctLabel": "Agenesia"
+    },
+    {
+        "src": "Fotos/117.jpg",
+        "correctLabel": "Pérola de esmalte"
+    },
+    {
+        "src": "Fotos/118.jpg",
+        "correctLabel": "Impactação"
+    },
+    {
+        "src": "Fotos/119.jpg",
+        "correctLabel": "Giroversão"
+    },
+    {
+        "src": "Fotos/120.jpg",
+        "correctLabel": "Raizes supranumerárias"
+    },
+    {
+        "src": "Fotos/121.jpg",
+        "correctLabel": "Fratura radicular"
+    },
+    {
+        "src": "Fotos/122.jpg",
+        "correctLabel": "Microdontia"
+    },
+    {
+        "src": "Fotos/123.jpg",
+        "correctLabel": "Osteite condensante"
+    },
+    {
+        "src": "Fotos/124.jpg",
+        "correctLabel": "Cárie oclusal"
+    },
+    {
+        "src": "Fotos/125.jpg",
+        "correctLabel": "Taurodontia"
+    },
+    {
+        "src": "Fotos/126.jpg",
+        "correctLabel": "Odontoma composto"
+    },
+    {
+        "src": "Fotos/127.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/128.jpg",
+        "correctLabel": "Anquilose"
+    },
+    {
+        "src": "Fotos/129.jpg",
+        "correctLabel": "Osteite condensante"
+    },
+    {
+        "src": "Fotos/130.jpg",
+        "correctLabel": "Cisto nasopalatino"
+    },
+    {
+        "src": "Fotos/131.jpg",
+        "correctLabel": "Cisto residual"
+    },
+    {
+        "src": "Fotos/132.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/133.jpg",
+        "correctLabel": "Queratocisto odontogênico"
+    },
+    {
+        "src": "Fotos/134.jpg",
+        "correctLabel": "Ameloblastoma multilocular"
+    },
+    {
+        "src": "Fotos/135.jpg",
+        "correctLabel": "Fusão"
+    },
+    {
+        "src": "Fotos/136.jpg",
+        "correctLabel": "Odontodisplasia regional"
+    },
+    {
+        "src": "Fotos/137.jpg",
+        "correctLabel": "Geminação"
+    },
+    {
+        "src": "Fotos/138.jpg",
+        "correctLabel": "Hipercementose"
+    },
+    {
+        "src": "Fotos/139.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/140.jpg",
+        "correctLabel": "Microdontia"
+    },
+    {
+        "src": "Fotos/141.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/142.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/143.jpg",
+        "correctLabel": "Cisto dentígero"
+    },
+    {
+        "src": "Fotos/144.jpg",
+        "correctLabel": "Cisto periodontal lateral"
+    },
+    {
+        "src": "Fotos/145.jpg",
+        "correctLabel": "Cisto periodontal lateral"
+    },
+    {
+        "src": "Fotos/146.jpg",
+        "correctLabel": "Cisto periodontal lateral"
+    },
+    {
+        "src": "Fotos/147.jpg",
+        "correctLabel": "Cisto periodontal lateral"
+    },
+    {
+        "src": "Fotos/148.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/149.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/150.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/151.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/152.jpg",
+        "correctLabel": "Cisto radicular"
+    },
+    {
+        "src": "Fotos/153.jpg",
+        "correctLabel": "Cisto residual"
+    },
+    {
+        "src": "Fotos/154.jpg",
+        "correctLabel": "Cisto residual"
+    },
+    {
+        "src": "Fotos/155.jpg",
+        "correctLabel": "Cisto nasopalatino"
+    },
+    {
+        "src": "Fotos/156.jpg",
+        "correctLabel": "Cisto nasopalatino"
+    },
+    {
+        "src": "Fotos/157.jpg",
+        "correctLabel": "Cisto nasopalatino"
+    },
+    {
+        "src": "Fotos/159.jpg",
+        "correctLabel": "Pseudocisto de retenção mucoso"
+    },
+    {
+        "src": "Fotos/160.jpg",
+        "correctLabel": "Pseudocisto de retenção mucoso"
+    },
+    {
+        "src": "Fotos/161.jpg",
+        "correctLabel": "Ameloblastoma unicístico"
+    },
+    {
+        "src": "Fotos/162.jpg",
+        "correctLabel": "Ameloblastoma unicístico"
+    },
+    {
+        "src": "Fotos/163.jpg",
+        "correctLabel": "Ameloblastoma multicístico"
+    },
+    {
+        "src": "Fotos/164.jpg",
+        "correctLabel": "Ameloblastoma multicístico"
+    },
+    {
+        "src": "Fotos/165.jpg",
+        "correctLabel": "Ameloblastoma desmoplásico"
+    },
+    {
+        "src": "Fotos/166.jpg",
+        "correctLabel": "Ameloblastoma periférico"
+    },
+    {
+        "src": "Fotos/167.jpg",
+        "correctLabel": "Tumor odontogênico queratinocístico"
+    },
+    {
+        "src": "Fotos/168.jpg",
+        "correctLabel": "Tumor odontogênico queratinocístico"
+    },
+    {
+        "src": "Fotos/169.jpg",
+        "correctLabel": "Tumor odontogênico adenomatóide"
+    },
+    {
+        "src": "Fotos/170.jpg",
+        "correctLabel": "Tumor odontogênico adenomatóide"
+    },
+    {
+        "src": "Fotos/171.jpg",
+        "correctLabel": "Odontoma composto"
+    },
+    {
+        "src": "Fotos/172.jpg",
+        "correctLabel": "Odontoma composto"
+    },
+    {
+        "src": "Fotos/173.jpg",
+        "correctLabel": "Odontoma composto"
+    },
+    {
+        "src": "Fotos/174.jpg",
+        "correctLabel": "Odontoma composto"
+    },
+    {
+        "src": "Fotos/175.jpg",
+        "correctLabel": "Odontoma complexo"
+    },
+    {
+        "src": "Fotos/176.jpg",
+        "correctLabel": "Fibrodontoma ameloblástico"
+    },
+    {
+        "src": "Fotos/177.jpg",
+        "correctLabel": "Fibrodontoma ameloblástico"
+    },
+    {
+        "src": "Fotos/178.jpg",
+        "correctLabel": "Fibrodontoma ameloblástico"
+    },
+    {
+        "src": "Fotos/179.jpg",
+        "correctLabel": "Mixoma odontogênico"
+    },
+    {
+        "src": "Fotos/180.jpg",
+        "correctLabel": "Mixoma odontogênico"
+    },
+    {
+        "src": "Fotos/181.jpg",
+        "correctLabel": "Mixoma odontogênico"
+    },
+    {
+        "src": "Fotos/182.jpg",
+        "correctLabel": "Cementoblastoma"
+    },
+    {
+        "src": "Fotos/183.jpg",
+        "correctLabel": "Cementoblastoma"
+    },
+    {
+        "src": "Fotos/184.jpg",
+        "correctLabel": "Osteoma"
+    },
+    {
+        "src": "Fotos/185.jpg",
+        "correctLabel": "Microdontia"
+    },
+    {
+        "src": "Fotos/186.jpg",
+        "correctLabel": "Macrodontia"
+    },
+    {
+        "src": "Fotos/192.jpg",
+        "correctLabel": "Geminação"
+    },
+    {
+        "src": "Fotos/193.jpg",
+        "correctLabel": "Fusão"
+    },
+    {
+        "src": "Fotos/194.jpg",
+        "correctLabel": "Concrescência"
+    },
+    {
+        "src": "Fotos/195.jpg",
+        "correctLabel": "Dente invaginado"
+    },
+    {
+        "src": "Fotos/196.jpg",
+        "correctLabel": "Dente evaginado"
+    },
+    {
+        "src": "Fotos/197.jpg",
+        "correctLabel": "Dilaceração"
+    },
+    {
+        "src": "Fotos/198.jpg",
+        "correctLabel": "Taurodontia"
+    },
+    {
+        "src": "Fotos/199.jpg",
+        "correctLabel": "Raízes supranumerárias"
+    },
+    {
+        "src": "Fotos/200.jpg",
+        "correctLabel": "Pérola de esmalte"
+    },
+    {
+        "src": "Fotos/201.jpg",
+        "correctLabel": "Hipoplasia de esmalte"
+    },
+    {
+        "src": "Fotos/202.jpg",
+        "correctLabel": "Amelogênese imperfeita"
+    },
+    {
+        "src": "Fotos/203.jpg",
+        "correctLabel": "Amelogênese imperfeita"
+    },
+    {
+        "src": "Fotos/204.jpg",
+        "correctLabel": "Dentinogênese imperfeita"
+    },
+    {
+        "src": "Fotos/205.jpg",
+        "correctLabel": "Displasia da dentina"
+    },
+    {
+        "src": "Fotos/206.jpg",
+        "correctLabel": "Odonto Displasia Regional"
+    },
+    {
+        "src": "Fotos/207.jpg",
+        "correctLabel": "Dentes inclusos"
+    },
+    {
+        "src": "Fotos/208.jpg",
+        "correctLabel": "Dentes inclusos"
+    },
+    {
+        "src": "Fotos/209.jpg",
+        "correctLabel": "Dente anquilosado"
+    },
+    {
+        "src": "Fotos/210.jpg",
+        "correctLabel": "Transposição dentária"
+    },
+    {
+        "src": "Fotos/211.jpg",
+        "correctLabel": "Transmigração"
+    },
+    {
+        "src": "Fotos/212.jpg",
+        "correctLabel": "Fratura coronária"
+    },
+    {
+        "src": "Fotos/213.jpg",
+        "correctLabel": "Erosão"
+    },
+    {
+        "src": "Fotos/214.jpg",
+        "correctLabel": "Abrasão"
+    },
+    {
+        "src": "Fotos/215.jpg",
+        "correctLabel": "Abrasão"
+    },
+    {
+        "src": "Fotos/216.jpg",
+        "correctLabel": "Atrição"
+    },
+    {
+        "src": "Fotos/217.jpg",
+        "correctLabel": "Nódulos"
+    },
+    {
+        "src": "Fotos/218.jpg",
+        "correctLabel": "Reabsorção radicular"
+    },
+    {
+        "src": "Fotos/219.jpg",
+        "correctLabel": "Fratura radicular"
+    },
+    {
+        "src": "Fotos/220.jpg",
+        "correctLabel": "Trepanação radicular"
+    },
+    {
+        "src": "Fotos/221.jpg",
+        "correctLabel": "Hipercementose"
+    },
+    {
+        "src": "Fotos/222.jpg",
+        "correctLabel": "Cárie oclusal"
+    },
+    {
+        "src": "Fotos/223.jpg",
+        "correctLabel": "Cárie vestibular"
+    },
+    {
+        "src": "Fotos/224.jpg",
+        "correctLabel": "Cárie proximal"
+    },
+    {
+        "src": "Fotos/225.jpg",
+        "correctLabel": "Cárie radicular"
+    },
+    {
+        "src": "Fotos/226.jpg",
+        "correctLabel": "Cárie proximal"
+    }
+]
